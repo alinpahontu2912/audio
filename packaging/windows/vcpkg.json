@@ -1,14 +1,18 @@
 {
-    "name": "torchaudiodependency",
-    "version": "1.0.0",
-    "dependencies": [
-      {
-        "name": "ffmpeg",
-        "default-features": true,
-        "features": [
-          "ffmpeg"
-        ]
-      }
-    ],
-    "builtin-baseline":"f00e89ae1903b95301065da48c84fbaf1cb680ce"
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": true,
+      "features": [
+        "ffmpeg"
+      ]
+    }
+  ],
+  "builtin-baseline":"f00e89ae1903b95301065da48c84fbaf1cb680ce",
+  "overrides": [
+    { 
+        "name": "ffmpeg", 
+        "version": "6.1.1"
+    }
+  ]
 }
